@@ -23,7 +23,7 @@ form.addEventListener('submit', function (event){
         description = 'Cuidado! Você está com obesidade moderada!';
     }
 
-    value.textContent = bmi.replace ('.',',');
+    value.textContent = bmi.replace('.',',');
     document.getElementById('description').textContent = description;
 
 });
